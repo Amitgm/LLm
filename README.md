@@ -5,4 +5,3 @@ Chat with PDFs helps you to upload one or multiple PDF files and chat with it On
 
 A video demo of the project has been shown on Chat with PDF.mp4
 
-Social Distance Detector
