@@ -17,8 +17,6 @@ import os
 global start_point
 
 
-os.environ['GOOGLE_API_KEY']  = 'AIzaSyAb_DlJVnyH43uaxNI7LzbkqFuGQnXLO44'
-
 
 def pdf_reader(pdf_docs):
 
