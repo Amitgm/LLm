@@ -25,7 +25,7 @@ load_dotenv(find_dotenv())
 
 HUGGINGFACEHUB_API_TOKEN = os.getenv('HUGGINGFACEHUB_API_TOKEN')
 
-# os.environ['GOOGLE_API_KEY'] = 'AIzaSyBHx7H45i7ds6Y8GO2FU6ootsFKc8HFcXc'
+
 
 llm = GooglePalm()
 
