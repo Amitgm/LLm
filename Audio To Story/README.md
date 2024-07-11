@@ -1,1 +1,1 @@
-
+A RAG-based application, where an audio transcript is uploaded and the audio is converted to text. This text is then fed into a Vector Database and using a prompt, the RAG system attempts to answer the question based on the prompt. If the answer needs to be more elaborate it uses tools like Wikipedia to find answers to the relevant queries.
