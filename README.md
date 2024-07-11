@@ -19,3 +19,6 @@ A video demo of the project has been shown on Chat with PDF.mp4
 # IMAGE TO STORY APP
 
 Transform any image into a humorous narrative with the IMAGE TO STORY application. This innovative tool utilizes cutting-edge technologies like Google PaLM LLM and various Hugging Face models. By employing Salesforce/blip-image-captioning-base, it seamlessly converts the image into text, while the kan-bayashi_ljspeech_vits model brings the story to life through voice narration.
+
+# FINE TUNING LLMS
+Fine-tuning LLMs on various datasets using the state-of-the-art LLMs such as Falcon, Zephyr, Mistral and many others. The Google Colab notebooks give us ideas on different use cases of fine-tuned LLms
