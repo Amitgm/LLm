@@ -26,9 +26,13 @@ os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 loaders = WebBaseLoader("https://python.langchain.com/v0.2/docs/introduction/")
 
 docs = loaders.load()
+# separators: A list of separators (e.g., ["\n\n", "\n", " ", ""]) used to split the text.
+
+# Recursive Splitting: If the resulting chunks are still too large, it recursively splits them further using the next separator in the list.
 
 doc_chunker  = RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=200)
 final_documents = doc_chunker.split_documents(docs[:2])
+
 
 embedding = GooglePalmEmbeddings()
 # embedding = OllamaEmbeddings()
